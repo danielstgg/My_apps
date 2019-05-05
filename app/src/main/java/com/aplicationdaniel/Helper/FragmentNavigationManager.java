@@ -33,21 +33,21 @@ public class FragmentNavigationManager implements NavigationManager {
     @Override
     public void showFragment (String title) {
 
-        //showFragment(FragmentContent.newInstance(title),false);
+        showFragment(FragmentContent.newInstance(title),false);
 
     }
 
 
 
-//    private void showFragment(Fragment fragmentContent, boolean b) {
-//        FragmentManager fm = mFragmentManager;
-//        FragmentTransaction ft = fm.beginTransaction().replace(R.id.container,fragmentContent);
-//        ft.addToBackStack(null);
-//        if (b || !BuildConfig.DEBUG)
-//            ft.commitAllowingStateLoss();
-//        else
-//            ft.commit();
-//        fm.executePendingTransactions();
-//    }
+    private void showFragment(Fragment fragmentContent, boolean b) {
+        FragmentManager fm = mFragmentManager;
+        FragmentTransaction ft = fm.beginTransaction().replace(R.id.container,fragmentContent);
+        ft.addToBackStack(null);
+        if (b || !BuildConfig.DEBUG)
+            ft.commitAllowingStateLoss();
+        else
+            ft.commit();
+        fm.executePendingTransactions();
+    }
 
 }
