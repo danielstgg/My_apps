@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Daniel App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Walktrought Name -->
+    <string name="walktrought_name_one">Name 1</string>
+    <string name="walktrought_name_two">Name 2</string>
+    <string name="walktrought_name_three">Name 3</string>
+
+    <!-- Walktrought Description -->
+    <string name="walktrought_one">Keterangan 1</string>
+    <string name="walktrought_two">Keterangan 2</string>
+    <string name="walktrought_three">Keterangan 3</string>
+
+
+
+</resources>
